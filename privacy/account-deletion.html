@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account — MarranApps</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .deletion-box {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      background: var(--bg-alt);
+    }
+    .deletion-box h3 {
+      margin-top: 0;
+    }
+    .btn-delete {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .btn-delete:hover {
+      opacity: 0.9;
+      text-decoration: none;
+    }
+    .step {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+    }
+    .step-num {
+      flex-shrink: 0;
+      width: 1.75rem;
+      height: 1.75rem;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .step p {
+      margin: 0;
+      padding-top: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="../index.html">MarranApps</a></h1>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../apps.html">Apps</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container policy-body">
+    <h2>Delete Your Account</h2>
+    <p class="meta">Last updated: May 16, 2026</p>
+
+    <p>
+      You can delete your account at any time. Deleting your account is permanent and will
+      remove all of your personal data from our systems.
+    </p>
+
+    <h3>What gets deleted</h3>
+    <ul>
+      <li>Your account and login credentials</li>
+      <li>Your profile information (name, email address)</li>
+      <li>Your household membership</li>
+      <li>All expense records associated with your account, if you are the sole household member</li>
+      <li>Your push notification token</li>
+      <li>Any saved biometric credentials on your device</li>
+    </ul>
+    <p>
+      If your household has other members, those members and their shared expense records will
+      not be affected. Analytics data retained by Google Firebase is subject to Google's own
+      deletion policies.
+    </p>
+
+    <div class="deletion-box">
+      <h3>Option 1 — Delete in the app (instant)</h3>
+      <p>The fastest way to delete your account is directly from within the Expense Aware app:</p>
+      <br/>
+      <div class="step">
+        <div class="step-num">1</div>
+        <p>Open the app and sign in to your account</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <p>Tap the <strong>Settings</strong> tab</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <p>Scroll to the bottom and tap <strong>Delete Account</strong></p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <p>Confirm the deletion when prompted — your account and data will be removed immediately</p>
+      </div>
+    </div>
+
+    <div class="deletion-box">
+      <h3>Option 2 — Request deletion by email</h3>
+      <p>
+        If you are unable to access the app, send an email from the address associated with
+        your account. We will verify your identity and delete your account within
+        <strong>30 days</strong>.
+      </p>
+      <a class="btn-delete" href="mailto:mmarran@gmail.com?subject=Account%20Deletion%20Request&body=Hi%2C%0A%0AI%20would%20like%20to%20permanently%20delete%20my%20account%20and%20all%20associated%20data.%0A%0AEmail%20used%20to%20register%3A%20%5BYour%20email%5D%0AApp%3A%20Expense%20Aware%0A%0AThank%20you.">
+        Request Account Deletion
+      </a>
+    </div>
+
+    <h3>Questions</h3>
+    <p>
+      If you have any questions, contact us at
+      <a href="mailto:mmarran@gmail.com">mmarran@gmail.com</a> or review our
+      <a href="privacy-policy.html">Privacy Policy</a>.
+    </p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 MarranApps. All rights reserved. &nbsp;|&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+</body>
+</html>
